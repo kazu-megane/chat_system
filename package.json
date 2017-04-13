@@ -1,0 +1,24 @@
+{
+  "name": "chat_system",
+  "version": "1.0.0",
+  "description": "LINE的なチャットシステム",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazu-megane/chat_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazu-megane/chat_system/issues"
+  },
+  "homepage": "https://github.com/kazu-megane/chat_system#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
