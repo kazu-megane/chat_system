@@ -18,7 +18,7 @@ io.sockets.on('connection',function (socket) {
      io.sockets.emit('sc2_message',{value:data.value});
    });
 
-   socket.on('c2s_broadcast',function (data) {
-      socket.setBroadcast('s2c_message',{value:data.value});
-   });
+   // socket.on('c2s_broadcast',function (data) {
+   //    socket.broadcast.emit('s2c_message',{value:data.value});
+   // });
 });
